@@ -13,16 +13,32 @@
     height: 30;
 }
 .flex{
+    display: flex;  
+}
+.flex2{
     display: flex;
    
-    
+    justify-content: space-around;
+    align-items: center;
 }
 .box{
-    background-color:aquamarine ;
+    background-color:white;
     border-style: solid;
     
 }
 body{
     margin: 0%;
     font-family: 'Courier New', Courier, monospace;
+}
+.color_table{
+    background-color:rgb(165, 165, 165) ;
+}
+table , th , td{
+    border-collapse: collapse;
+    border: 1px solid ;
+}
+hr{
+    margin: 0%;
+    height: 5;
+    background-color: aqua;
 }
