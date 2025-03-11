@@ -1,0 +1,28 @@
+
+.navbar{
+    background-color:rgb(165, 165, 165) ;
+    height: 50;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbutton{
+    
+    height: 30;
+}
+.flex{
+    display: flex;
+   
+    
+}
+.box{
+    background-color:aquamarine ;
+    border-style: solid;
+    
+}
+body{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
